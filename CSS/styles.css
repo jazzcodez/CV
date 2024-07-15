@@ -1,5 +1,5 @@
 body {
-    background-color: #b7f8f8;
+    background-color: #444b4b;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -8,16 +8,16 @@ body {
 }
 
 h1 {
-    color: #000505;
+    color: #66BFBF;
     font-style: italic;
 }
 
 h2, h3 {
-    color: #163838;
+    color: #66BFBF;
 }
 
 a {
-    color: #234257;
+    color: #3498db;
     text-decoration: none;
 }
 
@@ -54,25 +54,4 @@ ul, ol {
 
 ul li, ol li {
     margin-bottom: 10px;
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px 0;
-}
-
-.skill-item {
-    text-align: center;
-    margin: 10px;
-    flex: 1 1 20%;
-    min-width: 120px;
-}
-footer {
-    color: #070606;
-    text-align: center;
-    padding: 1rem 0;
-    width: 100%;
-    bottom: 0;
 }
